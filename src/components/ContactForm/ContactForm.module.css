@@ -4,6 +4,10 @@ label {
   text-align: center;
 }
 
+form {
+  margin: 0 auto;
+  width: 400px;
+}
 input {
   border: 1px solid #ccc;
   width: 100%;
@@ -27,6 +31,7 @@ input {
   padding: 10px 20px;
   transition: all 0.3s linear;
   margin-bottom: 30px;
+  margin-left: 8px;
   width: 100%;
   outline: none;
 }

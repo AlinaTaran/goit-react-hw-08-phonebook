@@ -11,7 +11,7 @@ import {
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 
-import { contactsReducer } from './contact';
+import contactsReducer from './contact/contacts-reducer';
 import { authReducer } from './auth';
 
 const middleware = [
